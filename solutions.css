@@ -66,3 +66,15 @@
     transition: 2s;
     filter: grayscale(0) sepia(0);
 }
+
+/* Esercizio 8 */
+.ex-8-img:hover {
+    transition: 2s;
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 20px;
+}
+.ex-8-img:not(:hover) {
+    transition: 2s;
+    filter: grayscale(0) sepia(0);
+    border-radius: 0px;
+}
