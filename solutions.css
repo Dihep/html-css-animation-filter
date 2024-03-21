@@ -105,3 +105,19 @@
 .ex-10-icon {
     animation: es-10 1s linear infinite;
 }
+
+/* Esercizio 11 */
+@keyframes es-11 {
+    0% {
+        transform: rotate(0deg);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.ex-11-icon:hover{
+    animation: es-11 2s linear infinite;
+}
