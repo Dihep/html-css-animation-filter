@@ -27,3 +27,13 @@
     transition: 0.5s;
     border-radius: 0;
 }
+
+/* Esercizio 4 */
+.ex-4-square:hover {
+    transition: 1s;
+    opacity: 0%;
+}
+.ex-4-square:not(:hover) {
+    transition: 1s;
+    opacity: 100%;
+}
