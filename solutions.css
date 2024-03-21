@@ -121,3 +121,33 @@
 .ex-11-icon:hover{
     animation: es-11 2s linear infinite;
 }
+
+/* Esercizio 12 */
+@keyframes es-12-top {
+    0% {
+      left: 10%;
+    }
+    50% {
+      left: 69%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+@keyframes es-12-bottom {
+    0% {
+      right: 20%;
+    }
+    50% {
+      right: 69%;
+    }
+    100% {
+        right: 20%;
+    }
+}
+.ex-12-button:hover>.ex-12-top-white {
+    animation: es-12-top 2s linear;
+}
+.ex-12-button:hover>.ex-12-bottom-white {
+    animation: es-12-bottom 2s linear;
+}
