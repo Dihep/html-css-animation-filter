@@ -1,5 +1,15 @@
 /* Esercizio 1 */
 .ex-1-square:hover {
+    transition: 2s;
     background-color: red;
-    transition-duration: 2s;
+}
+
+/* Esercizio 2 */
+.ex-2-square:active {
+    transition: 2s;
+    width: 100%;
+}
+.ex-2-square:not(:active) {
+    transition: 2s;
+    width: 100px;
 }
