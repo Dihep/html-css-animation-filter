@@ -3,6 +3,10 @@
     transition: 2s;
     background-color: red;
 }
+.ex-1-square:not(:hover) {
+    transition: 2s;
+    background-color: white;
+}
 
 /* Esercizio 2 */
 .ex-2-square:active {
@@ -12,4 +16,14 @@
 .ex-2-square:not(:active) {
     transition: 2s;
     width: 100px;
+}
+
+/* Esercizio 3 */
+.ex-3-square:hover {
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.ex-3-square:not(:hover) {
+    transition: 0.5s;
+    border-radius: 0;
 }
